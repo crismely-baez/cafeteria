@@ -1,0 +1,260 @@
+body {
+    background-color: beige;
+    margin: 2px;
+    padding: 2px;
+}
+
+.hero {
+    background-image: url(img/imagen_header.jfif);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.hero h1 {
+    color: white;
+}
+
+.hero span {
+    color: #D4AC7D;
+    font-style: italic;
+}
+
+.hero h4 {
+    color: #D4AC7D;
+}
+
+.hero p {
+    color: #D4AC70;
+}
+
+.hero-contenido {
+    display: flex;
+}
+
+.imagen-header img {
+    max-width: 450px;
+}
+
+.texto-header {
+    max-width: 500px;
+}
+
+.btn-hero {
+    background-color: #E4B882;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 35px;
+}
+
+/* Estilos generales de la sección */
+.sobre-nosotros {
+    color: #2D2825; /* Texto oscuro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 40px;
+}
+
+/* Parte superior (Imagen + Texto) */
+.nosotros-principal {
+    display: flex;
+    align-items: center; /* Centra la imagen y el texto verticalmente */
+    justify-content: space-between;
+    gap: 40px; /* Deja una separación limpia entre la imagen y el texto */
+    margin-bottom: 50px; /* Separa la parte superior de la tarjetas */
+}
+
+/* Tamaño de la imagen a la izquierda */
+.imagen-nosotros img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Parte inferior (Las 4 tarjetas en fila) */
+.tarjetas-contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.tarjeta-nosotros {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px;
+    border-right: 1px solid #D6C7B8;
+}
+
+.tarjeta-nosotros img {
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    background-color: #E8DFD5;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+
+/* Le quitamos la línea a la última tarjeta */
+.tarjeta-nosotros:last-child {
+    border-right: none;
+}
+
+.texto-nosotros {
+    max-width: 650px;
+}
+
+.texto-nosotros h4 {
+    color: #A38560;
+    margin-bottom: 10px;
+}
+
+.texto-nosotros h2 {
+    color: #666;
+    line-height: 1.6;
+}
+
+.texto-nosotros p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+/* Sección del Menú */
+.nuestro-menu {
+    background-color: #161210;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+/* Bloque del texto a la izquierda */
+.texto-menu {
+    max-width: 380px;
+}
+
+.texto-menu h4 {
+    color: #A38560;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+
+.texto-menu h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.texto-menu p {
+    color: #CCCCCC;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+/* Bloque de tarjetas a la derecha */
+.tarjetas-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.tarjeta-item {
+    text-align: left;
+}
+
+.tarjeta-item img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.tarjeta-item h5 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-bottom: 0;
+}
+
+.tarjeta-item p {
+    color: #D4AC7D;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+/* Contenedor principal del Footer */
+.footer {
+    background-color: #161210;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 5px 10px;
+    max-width: 2000px;
+    
+}
+
+/* Imagen a la izquierda */
+.foto-footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-footer img{
+    width: 220px;
+    height: auto;
+    object-fit: contain; 
+}
+
+/* Texto del centro */
+.texto-footer {
+    flex: 1;
+    text-align: left;
+}
+
+.texto-footer h1 {
+    color: #D4AC7D;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.texto-footer h2 {
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* 3. Información a la derecha */
+.informacion {
+    flex: 1;
+    text-align: left;
+}
+
+.informacion h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #E0E0E0;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.informacion strong {
+    color: #D4AC7D; /* Resalta las etiquetas Ubicación, Horario y Teléfono en dorado */
+}
